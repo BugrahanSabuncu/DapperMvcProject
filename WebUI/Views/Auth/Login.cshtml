@@ -26,14 +26,14 @@
             </div>
 
             <div class="form-floating">
-                <input asp-for="@Model.UserName" class="form-control" placeholder="Kullanıcı Adınızx">
+                <input asp-for="@Model.UserName" class="form-control" placeholder="Kullanıcı Adınız" required autofocus>
                 <label for="UserName">
                     Kullanıcı Adı
                     <span asp-validation-for="@Model.UserName" class="text-danger"></span>
                 </label>
             </div>
             <div class="form-floating">
-                <input asp-for="@Model.Password" type="password" class="form-control" placeholder="Şifreniz">
+                <input asp-for="@Model.Password" type="password" class="form-control" placeholder="Şifreniz" required>
                 <label for="Password">Şifre</label>
             </div>
 

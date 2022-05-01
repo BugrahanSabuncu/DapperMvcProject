@@ -8,5 +8,6 @@ namespace CV.DataAccess.Abstract
     public interface IAppUserRepository:IGenericRepository<User>
     {
         bool CheckUser(string username, string password);
+        User FindByName(string userName);
     }
 }

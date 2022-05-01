@@ -1,4 +1,57 @@
-﻿@{
+﻿@model UserUpdateModel
+@{
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
-<h1>Admin Paneli</h1>
+<form asp-action="Index" method="Post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="@Model.Id" />
+    <div class="form-group">
+        <label>Adınız :</label><span class="text-danger" asp-validation-for="@Model.FirstName"></span>
+        <input asp-for="@Model.FirstName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Soyadınız :</label><span class="text-danger" asp-validation-for="@Model.LastName"></span>
+        <input asp-for="@Model.LastName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Telefon Numaranız :</label><span class="text-danger" asp-validation-for="@Model.Email"></span>
+        <input asp-for="@Model.Email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Telefon Numaranız :</label><span class="text-danger" asp-validation-for="@Model.PhoneNumber"></span>
+        <input asp-for="@Model.PhoneNumber" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Ön Yazı :</label>
+        <input asp-for="@Model.ShortDescription" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Adresiniz :</label>
+        <input asp-for="@Model.Address" class="form-control" />
+    </div>
+    <div class="form-group row">
+        <div class="col-6">
+            @{
+                if (!string.IsNullOrWhiteSpace(Model.ImageUrl))
+                {
+                    <label>Bir önceki resminiz</label>
+                    <img src="/img/@Model.ImageUrl" alt="@Model.FirstName" style="width:5rem!important; height:4rem!important;" />
+                }
+                else
+                {
+                    <div class="alert alert-light text-center">
+                        Herhangi resim yok.
+                    </div>
+                }
+            }
+
+        </div>
+        <div class="col-6">
+            <label>Resim seç</label>
+            <input type="file" asp-for="@Model.Picture" class="form-control-file" />
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+</form>
+

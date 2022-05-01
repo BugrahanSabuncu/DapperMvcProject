@@ -47,8 +47,10 @@ C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\s
 C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\WebUI.TagHelpers.input.cache
 C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\WebUI.TagHelpers.output.cache
 C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\WebUI.RazorCoreGenerate.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\ChangePassword.cshtml.g.cs
 C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
 C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\Razor\Areas\_ViewImports.cshtml.g.cs
 C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Auth\Login.cshtml.g.cs
 C:\Users\Bugrahan\source\repos\CV.WebApplication\WebUI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs

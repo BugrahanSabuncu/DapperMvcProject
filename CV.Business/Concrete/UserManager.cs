@@ -12,15 +12,20 @@ namespace CV.Business.Concrete
         private readonly IGenericRepository<User> _genericRepository;
         private readonly IAppUserRepository _userRepository;
 
-        public UserManager(IGenericRepository<User> genericService, IAppUserRepository userRepository) : base(genericService)
+        public UserManager(IGenericRepository<User> genericRepository, IAppUserRepository userRepository) : base(genericRepository)
         {
-            _genericRepository = genericService;
+            _genericRepository = genericRepository;
             _userRepository = userRepository;
         }
 
         public bool CheckUser(string userName, string password)
         {            
             return _userRepository.CheckUser(userName, password);
+        }
+
+        public User FindByName(string userName)
+        {
+            return _userRepository.FindByName(userName);
         }
     }
 }

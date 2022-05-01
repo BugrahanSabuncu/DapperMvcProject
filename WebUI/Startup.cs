@@ -32,7 +32,7 @@ namespace WebUI
             {
                 //HTTPOnly document.cookie ile tarayıcıdaki bilgiler dönmesin diye yazdık
                 options.Cookie.HttpOnly = true;
-                options.Cookie.Name = "Buğrahan SABUNCU";
+                options.Cookie.Name = "Bugrahan";
                 //lax diğer web sitelerinin kullanımına açarken strict kapatır.
                 options.Cookie.SameSite = Microsoft.AspNetCore.Http.SameSiteMode.Strict;
                 //always seçimini yaparsak bu sadece https'de çalışır SameAsRequest ise her ikisinde
@@ -43,7 +43,7 @@ namespace WebUI
                 options.LoginPath = new PathString("/Auth/Login");
             });
             services.AddCustomDependencies(_configuration);
-            //services.AddControllersWithViews().AddFluentValidation();
+           
             services.AddControllersWithViews().AddFluentValidation();
 
 
@@ -65,7 +65,7 @@ namespace WebUI
             app.UseEndpoints(endpoints =>
             {
                 //endpointsin içini yazarken = kullanmazsak bu olmak zorunda anlamına gelir.
-                //eşittir ifadesi sana herhangi controller girilmediyse sen onu homecontroller olarak algıla demektir.
+                //eşittir ifadesi sana herhangi controller girilmediyse sen verileni homecontroller olarak algıla demektir.
                 endpoints.MapControllerRoute("areas", "{area}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });

@@ -45,6 +45,7 @@ namespace CV.Business.IOC.Microsoft
             services.AddTransient<IValidator<SkillUpdateDto>, SkillUpdateDtoValidator>();
             services.AddTransient<IValidator<SocialMediaIconAddDto>, SocialMediaIconAddDtoValidator>();
             services.AddTransient<IValidator<SocialMediaIconUpdateDto>, SocialMediaIconUpdateDtoValidator>();
+            services.AddTransient<IValidator<AppUserPasswordDto>, UserPasswordDtoValidator>();
 
             services.AddScoped<IAppUserRepository, AppUserRepository>();
             services.AddScoped<IUserService, UserManager>();
