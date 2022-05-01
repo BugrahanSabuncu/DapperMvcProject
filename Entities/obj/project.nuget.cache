@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "XTX05CkicbGlbVs0OnZ7zOrgY0wVA2ePNPXJOUiCfaTs6DqWv5UGS4fliy2LVMlsWIntAp8Aab+ouKeqHyZzTQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\Entities\\CV.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bugrahan\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\Bugrahan\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
+    "C:\\Users\\Bugrahan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Bugrahan\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Bugrahan\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

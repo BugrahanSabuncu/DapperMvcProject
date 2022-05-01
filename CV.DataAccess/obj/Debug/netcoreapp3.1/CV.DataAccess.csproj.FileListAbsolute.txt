@@ -1,0 +1,13 @@
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\bin\Debug\netcoreapp3.1\CV.DataAccess.deps.json
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\bin\Debug\netcoreapp3.1\CV.DataAccess.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\bin\Debug\netcoreapp3.1\CV.DataAccess.pdb
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\bin\Debug\netcoreapp3.1\CV.Entities.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\bin\Debug\netcoreapp3.1\CV.Entities.pdb
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\obj\Debug\netcoreapp3.1\CV.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\obj\Debug\netcoreapp3.1\CV.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\obj\Debug\netcoreapp3.1\CV.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\obj\Debug\netcoreapp3.1\CV.DataAccess.AssemblyInfo.cs
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\obj\Debug\netcoreapp3.1\CV.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\obj\Debug\netcoreapp3.1\CV.DataAccess.csproj.CopyComplete
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\obj\Debug\netcoreapp3.1\CV.DataAccess.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DataAccess\obj\Debug\netcoreapp3.1\CV.DataAccess.pdb

@@ -1,0 +1,10 @@
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DTO\bin\Debug\netcoreapp3.1\CV.DTO.deps.json
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DTO\bin\Debug\netcoreapp3.1\CV.DTO.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DTO\bin\Debug\netcoreapp3.1\CV.DTO.pdb
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DTO\obj\Debug\netcoreapp3.1\CV.DTO.csproj.AssemblyReference.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DTO\obj\Debug\netcoreapp3.1\CV.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DTO\obj\Debug\netcoreapp3.1\CV.DTO.AssemblyInfoInputs.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DTO\obj\Debug\netcoreapp3.1\CV.DTO.AssemblyInfo.cs
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DTO\obj\Debug\netcoreapp3.1\CV.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DTO\obj\Debug\netcoreapp3.1\CV.DTO.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.DTO\obj\Debug\netcoreapp3.1\CV.DTO.pdb

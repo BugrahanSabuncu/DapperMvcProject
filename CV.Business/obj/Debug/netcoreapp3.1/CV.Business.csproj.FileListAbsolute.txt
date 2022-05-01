@@ -1,0 +1,17 @@
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\bin\Debug\netcoreapp3.1\CV.Business.deps.json
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\bin\Debug\netcoreapp3.1\CV.Business.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\bin\Debug\netcoreapp3.1\CV.Business.pdb
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\bin\Debug\netcoreapp3.1\CV.DataAccess.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\bin\Debug\netcoreapp3.1\CV.DTO.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\bin\Debug\netcoreapp3.1\CV.Entities.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\bin\Debug\netcoreapp3.1\CV.DataAccess.pdb
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\bin\Debug\netcoreapp3.1\CV.DTO.pdb
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\bin\Debug\netcoreapp3.1\CV.Entities.pdb
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\obj\Debug\netcoreapp3.1\CV.Business.csproj.AssemblyReference.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\obj\Debug\netcoreapp3.1\CV.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\obj\Debug\netcoreapp3.1\CV.Business.AssemblyInfoInputs.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\obj\Debug\netcoreapp3.1\CV.Business.AssemblyInfo.cs
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\obj\Debug\netcoreapp3.1\CV.Business.csproj.CoreCompileInputs.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\obj\Debug\netcoreapp3.1\CV.Business.csproj.CopyComplete
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\obj\Debug\netcoreapp3.1\CV.Business.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\CV.Business\obj\Debug\netcoreapp3.1\CV.Business.pdb

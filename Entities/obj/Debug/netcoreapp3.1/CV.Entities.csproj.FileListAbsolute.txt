@@ -1,0 +1,10 @@
+C:\Users\Bugrahan\source\repos\CV.WebApplication\Entities\bin\Debug\netcoreapp3.1\CV.Entities.deps.json
+C:\Users\Bugrahan\source\repos\CV.WebApplication\Entities\bin\Debug\netcoreapp3.1\CV.Entities.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\Entities\bin\Debug\netcoreapp3.1\CV.Entities.pdb
+C:\Users\Bugrahan\source\repos\CV.WebApplication\Entities\obj\Debug\netcoreapp3.1\CV.Entities.csproj.AssemblyReference.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\Entities\obj\Debug\netcoreapp3.1\CV.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bugrahan\source\repos\CV.WebApplication\Entities\obj\Debug\netcoreapp3.1\CV.Entities.AssemblyInfoInputs.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\Entities\obj\Debug\netcoreapp3.1\CV.Entities.AssemblyInfo.cs
+C:\Users\Bugrahan\source\repos\CV.WebApplication\Entities\obj\Debug\netcoreapp3.1\CV.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Bugrahan\source\repos\CV.WebApplication\Entities\obj\Debug\netcoreapp3.1\CV.Entities.dll
+C:\Users\Bugrahan\source\repos\CV.WebApplication\Entities\obj\Debug\netcoreapp3.1\CV.Entities.pdb

@@ -1,0 +1,17 @@
+﻿@using CV.Entities.Concrete
+@{
+    Layout = null;
+}
+@model List<Skill>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test</title>
+</head>
+<body>
+    @foreach (var item in Model)
+    {
+        <span>@item.Id</span><br />
+        <span>@item.Description</span>
+    }
+</body>
+</html>
