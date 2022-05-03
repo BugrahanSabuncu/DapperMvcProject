@@ -1,0 +1,17 @@
+﻿@model List<CV.DTO.DTOs.SkillDtos.SkillListDto>
+<section class="resume-section" id="skills">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Yetenekler</h2>
+        @foreach (var skill in Model)
+        {
+<ul class="fa-ul mb-0">
+    <li>
+        <span class="fa-li"><i class="fas fa-check"></i></span>
+       @skill.Description
+    </li>
+    
+</ul>
+        }
+
+    </div>
+</section>

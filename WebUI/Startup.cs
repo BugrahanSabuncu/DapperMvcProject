@@ -43,7 +43,7 @@ namespace WebUI
                 options.LoginPath = new PathString("/Auth/Login");
             });
             services.AddCustomDependencies(_configuration);
-           
+            services.AddAutoMapper(typeof(Startup));
             services.AddControllersWithViews().AddFluentValidation();
 
 

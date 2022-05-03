@@ -1,0 +1,33 @@
+﻿@model ExperienceUpdateDto
+@{
+    Layout= "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@*<h1>@Model.Title</h1>*@
+<form asp-action="Update" asp-controller="Experience" asp-area="Admin" method="post">
+
+    <div class="form-group">
+        <label>Pozisyon : </label><span asp-validation-for="@Model.Title"></span>
+        <input asp-for="@Model.Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Departman : </label><span asp-validation-for="@Model.SubTitle"></span>
+        <input asp-for="@Model.SubTitle" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Çalıştığı Yıl : </label><span asp-validation-for="@Model.Description"></span>
+        <input asp-for="@Model.Description" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Başlangıç Tarihi : </label><span asp-validation-for="@Model.StartDate"></span>
+        <input type="date" asp-for="@Model.StartDate" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Pozisyon : </label><span asp-validation-for="@Model.EndDate"></span>
+        <input type="date" asp-for="@Model.EndDate" class="form-control" />
+    </div>
+    <div class="form-group">
+
+        <button type="submit" class="btn btn-primary m-1">Güncelle</button>
+    </div>
+</form>

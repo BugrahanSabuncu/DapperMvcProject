@@ -58,5 +58,10 @@ namespace WebUI.Controllers
             }
             return View(loginModel);
         }
+        public IActionResult LogOut()
+        {
+            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme).Wait();
+            return RedirectToAction("Index", "Home", new { @area = "" });
+        }
     }
 }

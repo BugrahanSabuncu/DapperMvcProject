@@ -1,0 +1,31 @@
+﻿@model List<InterestListDto>
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<a asp-action="Add" asp-controller="Interest" asp-area="Admin" class="btn btn-primary">Yeni Kayıt</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>İlgi Alanı</th>
+            <th>İşlemler</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Description</td>
+                <td>
+                    <a asp-action="Update" asp-controller="Interest" asp-area="Admin" asp-route-id="@item.Id" 
+                       class="text-warning">Güncelle</a>
+                    <a asp-action="Delete" asp-controller="Interest" asp-area="Admin" asp-route-id="@item.Id"
+                       class="text-danger" onclick="return confirm('Silmek istediğinizden emin misiniz?')">
+                        Sil
+                    </a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

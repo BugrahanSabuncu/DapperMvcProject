@@ -1,17 +1,57 @@
-﻿@using CV.Entities.Concrete
-@{
+﻿@{ 
     Layout = null;
 }
-@model List<Skill>
-<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!DOCTYPE html>
+<html lang="tr">
 <head>
-    <title>Test</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Buğrahan SABUNCU Kişisel web sayfası" />
+    <meta name="author" content="Buğrahan SABUNCU" />
+    <title>Buğrahan SABUNCU</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <link href="~/font-awesome/css/all.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body>
-    @foreach (var item in Model)
-    {
-        <span>@item.Id</span><br />
-        <span>@item.Description</span>
-    }
+<body id="page-top">
+    <!-- Navigation-->
+    @await Component.InvokeAsync("NavbarComponent")
+
+    
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- About-->
+        @await Component.InvokeAsync("AboutComponent")
+        <hr class="m-0" />
+        <!-- Experience-->
+        @await Component.InvokeAsync("ExperienceComponent")
+        <hr class="m-0" />
+        <!-- Education-->
+        @await Component.InvokeAsync("EducationComponent")
+        <hr class="m-0" />
+        <!-- Skills-->
+        @await Component.InvokeAsync("SkillComponent")
+        <hr class="m-0" />
+        <!-- Interests-->
+        @await Component.InvokeAsync("InterestComponent")
+        <hr class="m-0" />
+        <!-- Awards-->
+        @await Component.InvokeAsync("CertificationComponent")
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="~/jquery/jquery.min.js"></script>
+    <script src="~/twitter-bootstrap/js/bootstrap.min.js"></script>
+    <!-- Jquery easing JS-->
+    <script src="~/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="/js/scripts.js"></script>
+    <!-- Font awasome JS-->
+    <script src="~/font-awesome/js/all.js"></script>
 </body>
 </html>

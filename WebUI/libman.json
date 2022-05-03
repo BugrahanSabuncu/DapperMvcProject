@@ -14,6 +14,14 @@
     {
       "library": "jquery@3.6.0",
       "destination": "wwwroot/jquery/"
+    },
+    {
+      "library": "font-awesome@6.1.1",
+      "destination": "wwwroot/font-awesome/"
+    },
+    {
+      "library": "jquery-easing@1.4.1",
+      "destination": "wwwroot/jquery-easing/"
     }
   ]
 }

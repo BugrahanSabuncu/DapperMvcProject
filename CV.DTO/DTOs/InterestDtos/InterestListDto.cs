@@ -5,7 +5,7 @@ using CV.DTO.Interfaces;
 
 namespace CV.DTO.DTOs.InterestDtos
 {
-    public class SkillListDto : IDTOs
+    public class InterestListDto : IDTOs
     {
         public int Id { get; set; }
         public string Description { get; set; }

@@ -49,6 +49,8 @@ namespace CV.Business.IOC.Microsoft
 
             services.AddScoped<IAppUserRepository, AppUserRepository>();
             services.AddScoped<IUserService, UserManager>();
+            services.AddScoped<ISocialMediaIconService, SocialMediaIconManager>();
+            services.AddScoped<ISocialMediaIconRepository, SocialMediaIconRepository>();
         }
     }
 }
