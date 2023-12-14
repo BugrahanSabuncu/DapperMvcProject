@@ -1134,11 +1134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\WebUI\\WebUI.csproj",
+      "projectUniqueName": "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\WebUI\\WebUI.csproj",
       "projectName": "WebUI",
-      "projectPath": "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\WebUI\\WebUI.csproj",
+      "projectPath": "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\WebUI\\WebUI.csproj",
       "packagesPath": "C:\\Users\\Bugrahan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\WebUI\\obj\\",
+      "outputPath": "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -1158,15 +1158,14 @@
       "sources": {
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.telerik.com/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\CV.Business\\CV.Business.csproj": {
-              "projectPath": "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\CV.Business\\CV.Business.csproj"
+            "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\CV.Business\\CV.Business.csproj": {
+              "projectPath": "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\CV.Business\\CV.Business.csproj"
             }
           }
         }
@@ -1204,7 +1203,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

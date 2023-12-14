@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2+pPPSIBGDZ/POLnxLaIoqap6n/2VKL+PZOILLX/cGLq88I3PpN2R55fUetWoIafQkClro430L+zr5l/w9VLaQ==",
+  "dgSpecHash": "S0ja+jNPaqtnZDT7v2XGxh71UfWkFuZWIO6Z62mGKScx0UTxqaHPJO0lvEkCl0fPe33AoYFaKvmzD+mkhytnWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\WebUI\\WebUI.csproj",
+  "projectFilePath": "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\WebUI\\WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bugrahan\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\Bugrahan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

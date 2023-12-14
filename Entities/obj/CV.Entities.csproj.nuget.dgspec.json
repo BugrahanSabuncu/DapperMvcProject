@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\Entities\\CV.Entities.csproj": {}
+    "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\Entities\\CV.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\Entities\\CV.Entities.csproj": {
+    "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\Entities\\CV.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\Entities\\CV.Entities.csproj",
+        "projectUniqueName": "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\Entities\\CV.Entities.csproj",
         "projectName": "CV.Entities",
-        "projectPath": "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\Entities\\CV.Entities.csproj",
+        "projectPath": "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\Entities\\CV.Entities.csproj",
         "packagesPath": "C:\\Users\\Bugrahan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bugrahan\\source\\repos\\CV.WebApplication\\Entities\\obj\\",
+        "outputPath": "D:\\C#\\Repos\\Dapper\\CV.WebApplication\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
@@ -31,8 +31,7 @@
         "sources": {
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -70,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
